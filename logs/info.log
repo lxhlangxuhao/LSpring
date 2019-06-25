@@ -1,0 +1,49 @@
+[14:30:57:386] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[14:37:28:408] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[14:42:13:431] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[14:43:32:031] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-2} inited
+[15:09:29:109] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:09:46:984] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-2} inited
+[15:12:34:818] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:12:47:023] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-2} inited
+[15:14:14:320] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:16:13:161] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:16:28:977] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-2} inited
+[15:17:23:008] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:17:37:950] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-2} inited
+[15:22:27:362] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:22:38:991] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-2} inited
+[15:55:39:552] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:58:21:872] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[15:58:22:057] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-0} closing ...
+[15:58:22:057] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closing ...
+[15:58:22:121] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closed
+[16:02:31:175] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[16:02:31:480] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-0} closing ...
+[16:02:31:484] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closing ...
+[16:02:31:589] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closed
+[16:12:52:341] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[16:12:52:535] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-0} closing ...
+[16:12:52:536] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closing ...
+[16:12:52:591] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closed
+[16:16:24:423] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[16:16:24:618] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:34) - 姓名：小狼
+[16:16:24:620] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:37) - 姓名：喜洋洋
+[16:16:24:621] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:39) - 姓名：喜洋洋
+[16:16:24:674] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-0} closing ...
+[16:16:24:675] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closing ...
+[16:16:24:750] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closed
+[16:47:13:314] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[16:47:13:502] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:34) - 姓名：小狼
+[16:47:13:504] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:43) - 姓名：喜洋洋
+[16:47:13:505] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:45) - 姓名：喜洋洋
+[16:47:13:534] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-0} closing ...
+[16:47:13:535] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closing ...
+[16:47:13:610] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closed
+[16:47:55:963] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} inited
+[16:47:56:115] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:34) - 姓名：小狼
+[16:47:56:144] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:44) - 姓名：小狼
+[16:47:56:145] [INFO] - com.hao.xu.lang.mapper.oracle.LangUserMapperTest.test(LangUserMapperTest.java:46) - 姓名：小狼
+[16:47:56:162] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-0} closing ...
+[16:47:56:163] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closing ...
+[16:47:56:242] [INFO] - com.alibaba.druid.support.logging.Log4j2Impl.info(Log4j2Impl.java:106) - {dataSource-1} closed

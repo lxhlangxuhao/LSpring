@@ -1,0 +1,453 @@
+[2019-06-16 20:44:40,667 2674] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:490)] [Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@6e6d5d29]
+[2019-06-16 20:44:40,667 2674] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:501)] [Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@5c530d1e]
+[2019-06-16 20:44:40,786 2793] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 20:44:40,787 2794] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 20:44:40,904 2911] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 20:44:48,401 10408] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-1} inited]
+[2019-06-16 20:44:48,410 10417] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [mysqlDataSource: refreshed XAResource]
+[2019-06-16 20:44:48,478 10485] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 20:44:48,479 10486] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 20:44:48,564 10571] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 20:44:49,106 11113] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-2} inited]
+[2019-06-16 20:44:49,111 11118] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [oracleDataSource: refreshed XAResource]
+[2019-06-16 20:44:49,161 11168] [INFO ] [Thread-1] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:951)] [Closing org.springframework.context.support.GenericApplicationContext@4e1d422d: startup date [Sun Jun 16 20:44:38 CST 2019]; root of context hierarchy]
+[2019-06-16 20:44:49,167 11174] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-1} closing ...]
+[2019-06-16 20:44:49,171 11178] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-1} closed]
+[2019-06-16 20:44:49,171 11178] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-2} closing ...]
+[2019-06-16 20:44:49,318 11325] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-2} closed]
+[2019-06-16 21:25:59,354 0] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:259)] [Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+[2019-06-16 21:25:59,395 41] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:185)] [Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66a3ffec, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77caeb3e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e88b3c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42d80b78, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bfdc050, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1bce4f0a]]
+[2019-06-16 21:25:59,536 182] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [applicationContext.xml]]
+[2019-06-16 21:26:00,236 882] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [spring-mybatis.xml]]
+[2019-06-16 21:26:00,367 1013] [INFO ] [main] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:573)] [Refreshing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 21:26:00 CST 2019]; root of context hierarchy]
+[2019-06-16 21:26:00,573 1219] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from class path resource [jdbc.properties]]
+[2019-06-16 21:26:01,004 1650] [WARN ] [main] [com.alibaba.druid.pool.DruidAbstractDataSource.setDriverClassName(DruidAbstractDataSource.java:1214)] [oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.]
+[2019-06-16 21:26:01,615 2261] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from URL [file:/E:/zhongyi/spring/target/classes/jdbc.properties]]
+[2019-06-16 21:26:02,170 2816] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:490)] [Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@5286c33a]
+[2019-06-16 21:26:02,171 2817] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:501)] [Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@6e6d5d29]
+[2019-06-16 21:26:02,384 3030] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [createCompositeTransaction ( 300000 ): created new ROOT transaction with id 192.168.1.3.tm0000100067]
+[2019-06-16 21:26:02,389 3035] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.startTransaction(TransactionContext.java:101)] [Began transaction (1) for test context [DefaultTestContext@129b4fe2 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@5af3a0f, testMethod = test@LangUserMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@13f17eb4 testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.transaction.jta.JtaTransactionManager@19ae6bb]; rollback [true]]
+[2019-06-16 21:26:02,421 3067] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 21:26:02,422 3068] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 21:26:02,779 3425] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 21:26:03,428 4074] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-1} inited]
+[2019-06-16 21:26:03,447 4093] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [oracleDataSource: refreshed XAResource]
+[2019-06-16 21:26:03,468 4114] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [addParticipant ( XAResourceTransaction: 3139322E3136382E312E332E746D30303030313030303637:3139322E3136382E312E332E746D31 ) for transaction 192.168.1.3.tm0000100067]
+[2019-06-16 21:26:03,469 4115] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.start ( 3139322E3136382E312E332E746D30303030313030303637:3139322E3136382E312E332E746D31 , XAResource.TMNOFLAGS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@13cda7c9]
+[2019-06-16 21:26:03,522 4168] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f210 ) for transaction 192.168.1.3.tm0000100067]
+[2019-06-16 21:26:03,549 4195] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.end ( 3139322E3136382E312E332E746D30303030313030303637:3139322E3136382E312E332E746D31 , XAResource.TMSUCCESS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@13cda7c9]
+[2019-06-16 21:26:03,664 4310] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.rollback ( 3139322E3136382E312E332E746D30303030313030303637:3139322E3136382E312E332E746D31 ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@13cda7c9]
+[2019-06-16 21:26:03,667 4313] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [rollback() done of transaction 192.168.1.3.tm0000100067]
+[2019-06-16 21:26:03,668 4314] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:136)] [Rolled back transaction for test context [DefaultTestContext@129b4fe2 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@5af3a0f, testMethod = test@LangUserMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@13f17eb4 testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].]
+[2019-06-16 21:26:03,671 4317] [INFO ] [Thread-1] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:951)] [Closing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 21:26:00 CST 2019]; root of context hierarchy]
+[2019-06-16 21:26:03,676 4322] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-0} closing ...]
+[2019-06-16 21:26:03,676 4322] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-1} closing ...]
+[2019-06-16 21:26:03,739 4385] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-1} closed]
+[2019-06-16 21:26:12,895 0] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:259)] [Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+[2019-06-16 21:26:12,913 18] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:185)] [Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66a3ffec, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77caeb3e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e88b3c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42d80b78, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bfdc050, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1bce4f0a]]
+[2019-06-16 21:26:13,017 122] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [applicationContext.xml]]
+[2019-06-16 21:26:13,257 362] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [spring-mybatis.xml]]
+[2019-06-16 21:26:13,372 477] [INFO ] [main] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:573)] [Refreshing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 21:26:13 CST 2019]; root of context hierarchy]
+[2019-06-16 21:26:13,721 826] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from class path resource [jdbc.properties]]
+[2019-06-16 21:26:14,320 1425] [WARN ] [main] [com.alibaba.druid.pool.DruidAbstractDataSource.setDriverClassName(DruidAbstractDataSource.java:1214)] [oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.]
+[2019-06-16 21:26:14,964 2069] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from URL [file:/E:/zhongyi/spring/target/classes/jdbc.properties]]
+[2019-06-16 21:26:15,444 2549] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:490)] [Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@5286c33a]
+[2019-06-16 21:26:15,444 2549] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:501)] [Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@6e6d5d29]
+[2019-06-16 21:26:15,538 2643] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [createCompositeTransaction ( 300000 ): created new ROOT transaction with id 192.168.1.3.tm0000100068]
+[2019-06-16 21:26:15,549 2654] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.startTransaction(TransactionContext.java:101)] [Began transaction (1) for test context [DefaultTestContext@129b4fe2 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@5af3a0f, testMethod = test@LangUserMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@13f17eb4 testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.transaction.jta.JtaTransactionManager@19ae6bb]; rollback [true]]
+[2019-06-16 21:26:15,592 2697] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 21:26:15,592 2697] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 21:26:15,689 2794] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 21:26:22,661 9766] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-1} inited]
+[2019-06-16 21:26:22,669 9774] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [mysqlDataSource: refreshed XAResource]
+[2019-06-16 21:26:23,586 10691] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [addParticipant ( XAResourceTransaction: 3139322E3136382E312E332E746D30303030313030303638:3139322E3136382E312E332E746D31 ) for transaction 192.168.1.3.tm0000100068]
+[2019-06-16 21:26:23,587 10692] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.start ( 3139322E3136382E312E332E746D30303030313030303638:3139322E3136382E312E332E746D31 , XAResource.TMNOFLAGS ) on resource mysqlDataSource represented by XAResource instance com.mysql.cj.jdbc.MysqlXAConnection@4d411036]
+[2019-06-16 21:26:23,610 10715] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f211 ) for transaction 192.168.1.3.tm0000100068]
+[2019-06-16 21:26:23,644 10749] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.end ( 3139322E3136382E312E332E746D30303030313030303638:3139322E3136382E312E332E746D31 , XAResource.TMSUCCESS ) on resource mysqlDataSource represented by XAResource instance com.mysql.cj.jdbc.MysqlXAConnection@4d411036]
+[2019-06-16 21:26:24,568 11673] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.rollback ( 3139322E3136382E312E332E746D30303030313030303638:3139322E3136382E312E332E746D31 ) on resource mysqlDataSource represented by XAResource instance com.mysql.cj.jdbc.MysqlXAConnection@4d411036]
+[2019-06-16 21:26:24,590 11695] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [rollback() done of transaction 192.168.1.3.tm0000100068]
+[2019-06-16 21:26:24,591 11696] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:136)] [Rolled back transaction for test context [DefaultTestContext@129b4fe2 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@5af3a0f, testMethod = test@LangUserMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@13f17eb4 testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].]
+[2019-06-16 21:26:24,592 11697] [INFO ] [Thread-1] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:951)] [Closing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 21:26:13 CST 2019]; root of context hierarchy]
+[2019-06-16 21:26:24,597 11702] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-1} closing ...]
+[2019-06-16 21:26:24,602 11707] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-1} closed]
+[2019-06-16 21:26:24,602 11707] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-0} closing ...]
+[2019-06-16 21:26:34,688 0] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:259)] [Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+[2019-06-16 21:26:34,706 18] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:185)] [Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66a3ffec, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77caeb3e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e88b3c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42d80b78, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bfdc050, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1bce4f0a]]
+[2019-06-16 21:26:34,808 120] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [applicationContext.xml]]
+[2019-06-16 21:26:35,041 353] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [spring-mybatis.xml]]
+[2019-06-16 21:26:35,121 433] [INFO ] [main] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:573)] [Refreshing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 21:26:35 CST 2019]; root of context hierarchy]
+[2019-06-16 21:26:35,358 670] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from class path resource [jdbc.properties]]
+[2019-06-16 21:26:35,848 1160] [WARN ] [main] [com.alibaba.druid.pool.DruidAbstractDataSource.setDriverClassName(DruidAbstractDataSource.java:1214)] [oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.]
+[2019-06-16 21:26:37,083 2395] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from URL [file:/E:/zhongyi/spring/target/classes/jdbc.properties]]
+[2019-06-16 21:26:37,566 2878] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:490)] [Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@435fb7b5]
+[2019-06-16 21:26:37,567 2879] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:501)] [Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@4e70a728]
+[2019-06-16 21:26:37,676 2988] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [createCompositeTransaction ( 300000 ): created new ROOT transaction with id 192.168.1.3.tm0000100069]
+[2019-06-16 21:26:37,680 2992] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.startTransaction(TransactionContext.java:101)] [Began transaction (1) for test context [DefaultTestContext@14b030a0 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@41e350f1, testMethod = test@LangUserMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@246f8b8b testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.transaction.jta.JtaTransactionManager@422c3c7a]; rollback [true]]
+[2019-06-16 21:26:37,714 3026] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 21:26:37,715 3027] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 21:26:37,815 3127] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 21:26:45,598 10910] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-1} inited]
+[2019-06-16 21:26:45,606 10918] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [mysqlDataSource: refreshed XAResource]
+[2019-06-16 21:26:45,646 10958] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [addParticipant ( XAResourceTransaction: 3139322E3136382E312E332E746D30303030313030303639:3139322E3136382E312E332E746D31 ) for transaction 192.168.1.3.tm0000100069]
+[2019-06-16 21:26:45,647 10959] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.start ( 3139322E3136382E312E332E746D30303030313030303639:3139322E3136382E312E332E746D31 , XAResource.TMNOFLAGS ) on resource mysqlDataSource represented by XAResource instance com.mysql.cj.jdbc.MysqlXAConnection@677dbd89]
+[2019-06-16 21:26:46,568 11880] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f212 ) for transaction 192.168.1.3.tm0000100069]
+[2019-06-16 21:26:46,601 11913] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f212 ) for transaction 192.168.1.3.tm0000100069]
+[2019-06-16 21:26:46,625 11937] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]]
+[2019-06-16 21:26:46,655 11967] [INFO ] [main] [org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:126)] [SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]]
+[2019-06-16 21:26:46,661 11973] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [Error closing pending statement: 
+java.sql.SQLException: No operations allowed after statement closed.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:545)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:513)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:505)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:479)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:489)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:75)
+	at com.mysql.cj.jdbc.PreparedStatement.clearParameters(PreparedStatement.java:1000)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3381)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_clearParameters(FilterAdapter.java:1076)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3378)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.clearParameters(PreparedStatementProxyImpl.java:151)
+	at com.alibaba.druid.pool.DruidPooledConnection.closePoolableStatement(DruidPooledConnection.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.close(DruidPooledPreparedStatement.java:201)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy43.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:328)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:294)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:460)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:106)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:945)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:842)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:830)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:125)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:218)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:93)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:86)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:241)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: com.mysql.cj.core.exceptions.StatementIsClosedException: No operations allowed after statement closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:73)
+	at com.mysql.cj.jdbc.StatementImpl.checkClosed(StatementImpl.java:494)
+	at com.mysql.cj.jdbc.PreparedStatement.clearParameters(PreparedStatement.java:990)
+	... 40 more]
+[2019-06-16 21:26:46,661 11973] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.end ( 3139322E3136382E312E332E746D30303030313030303639:3139322E3136382E312E332E746D31 , XAResource.TMSUCCESS ) on resource mysqlDataSource represented by XAResource instance com.mysql.cj.jdbc.MysqlXAConnection@677dbd89]
+[2019-06-16 21:26:47,579 12891] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.rollback ( 3139322E3136382E312E332E746D30303030313030303639:3139322E3136382E312E332E746D31 ) on resource mysqlDataSource represented by XAResource instance com.mysql.cj.jdbc.MysqlXAConnection@677dbd89]
+[2019-06-16 21:26:47,604 12916] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [rollback() done of transaction 192.168.1.3.tm0000100069]
+[2019-06-16 21:26:47,604 12916] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:136)] [Rolled back transaction for test context [DefaultTestContext@14b030a0 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@41e350f1, testMethod = test@LangUserMapperTest, testException = org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Table 'lang.LANG_USER' doesn't exist
+### The error may exist in file [E:\zhongyi\spring\target\classes\com\xu\hao\oracle\mapper\LangUserMapper.xml]
+### The error may involve com.hao.xu.lang.mapper.oracle.LangUserMapper.selectByPrimaryKey-Inline
+### The error occurred while setting parameters
+### SQL: select           ID, NAME, AGE, SCORE         from LANG_USER     where ID = ?
+### Cause: java.sql.SQLSyntaxErrorException: Table 'lang.LANG_USER' doesn't exist
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Table 'lang.LANG_USER' doesn't exist, mergedContextConfiguration = [MergedContextConfiguration@246f8b8b testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].]
+[2019-06-16 21:26:47,612 12924] [INFO ] [Thread-1] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:951)] [Closing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 21:26:35 CST 2019]; root of context hierarchy]
+[2019-06-16 21:26:47,620 12932] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-1} closing ...]
+[2019-06-16 21:26:47,625 12937] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-1} closed]
+[2019-06-16 21:26:47,625 12937] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-0} closing ...]
+[2019-06-16 22:55:17,715 0] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:259)] [Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+[2019-06-16 22:55:17,735 20] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:185)] [Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47542153, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33afa13b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7a4ccb53, org.springframework.test.context.support.DirtiesContextTestExecutionListener@309e345f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@56a6d5a6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@18ce0030]]
+[2019-06-16 22:55:17,867 152] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [applicationContext.xml]]
+[2019-06-16 22:55:18,207 492] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [spring-mybatis.xml]]
+[2019-06-16 22:55:18,327 612] [INFO ] [main] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:573)] [Refreshing org.springframework.context.support.GenericApplicationContext@4facf68f: startup date [Sun Jun 16 22:55:18 CST 2019]; root of context hierarchy]
+[2019-06-16 22:55:18,573 858] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from class path resource [jdbc.properties]]
+[2019-06-16 22:55:18,923 1208] [WARN ] [main] [com.alibaba.druid.pool.DruidAbstractDataSource.setDriverClassName(DruidAbstractDataSource.java:1214)] [oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.]
+[2019-06-16 22:55:19,402 1687] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from URL [file:/E:/zhongyi/spring/target/classes/jdbc.properties]]
+[2019-06-16 22:55:19,681 1966] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:490)] [Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@4ebadd3d]
+[2019-06-16 22:55:19,682 1967] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:501)] [Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@6ac97b84]
+[2019-06-16 22:55:19,821 2106] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [createCompositeTransaction ( 300000 ): created new ROOT transaction with id 192.168.1.3.tm0000100070]
+[2019-06-16 22:55:19,824 2109] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.startTransaction(TransactionContext.java:101)] [Began transaction (1) for test context [DefaultTestContext@ecfbe91 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@20ed3303, testMethod = test@LangUserMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@773bd77b testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.transaction.jta.JtaTransactionManager@3adbe50f]; rollback [true]]
+[2019-06-16 22:55:26,229 8514] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 22:55:26,230 8515] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 22:55:26,410 8695] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 22:55:26,997 9282] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-1} inited]
+[2019-06-16 22:55:27,009 9294] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [oracleDataSource: refreshed XAResource]
+[2019-06-16 22:55:27,032 9317] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [addParticipant ( XAResourceTransaction: 3139322E3136382E312E332E746D30303030313030303730:3139322E3136382E312E332E746D31 ) for transaction 192.168.1.3.tm0000100070]
+[2019-06-16 22:55:27,033 9318] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.start ( 3139322E3136382E312E332E746D30303030313030303730:3139322E3136382E312E332E746D31 , XAResource.TMNOFLAGS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@48d293ee]
+[2019-06-16 22:55:27,094 9379] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f228 ) for transaction 192.168.1.3.tm0000100070]
+[2019-06-16 22:55:41,393 23678] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f228 ) for transaction 192.168.1.3.tm0000100070]
+[2019-06-16 22:55:41,452 23737] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]]
+[2019-06-16 22:55:41,597 23882] [INFO ] [main] [org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:126)] [SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]]
+[2019-06-16 22:55:46,826 29111] [ERROR] [main] [com.alibaba.druid.pool.DruidDataSource.handleFatalError(DruidDataSource.java:1777)] [discard connection]
+java.sql.SQLException: 关闭的语句
+	at oracle.jdbc.driver.OracleClosedStatement.clearParameters(OracleClosedStatement.java:4086)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.clearParameters(OraclePreparedStatementWrapper.java:1377)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3381)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_clearParameters(FilterAdapter.java:1076)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3378)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.clearParameters(PreparedStatementProxyImpl.java:151)
+	at com.alibaba.druid.pool.DruidPooledConnection.closePoolableStatement(DruidPooledConnection.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.close(DruidPooledPreparedStatement.java:201)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy41.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:328)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:294)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:460)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:106)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:945)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:842)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:830)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:125)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:218)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:93)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:86)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:241)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+[2019-06-16 22:55:46,832 29117] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [Error closing pending statement: 
+java.sql.SQLException: 关闭的语句
+	at oracle.jdbc.driver.OracleClosedStatement.clearParameters(OracleClosedStatement.java:4086)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.clearParameters(OraclePreparedStatementWrapper.java:1377)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3381)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_clearParameters(FilterAdapter.java:1076)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3378)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.clearParameters(PreparedStatementProxyImpl.java:151)
+	at com.alibaba.druid.pool.DruidPooledConnection.closePoolableStatement(DruidPooledConnection.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.close(DruidPooledPreparedStatement.java:201)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy41.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:328)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:294)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:460)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:106)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:945)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:842)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:830)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:125)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:218)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:93)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:86)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:241)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)]
+[2019-06-16 22:55:46,833 29118] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.end ( 3139322E3136382E312E332E746D30303030313030303730:3139322E3136382E312E332E746D31 , XAResource.TMSUCCESS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@48d293ee]
+[2019-06-16 22:55:46,838 29123] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.end ( 3139322E3136382E312E332E746D30303030313030303730:3139322E3136382E312E332E746D31 , XAResource.TMSUCCESS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@48d293ee]
+[2019-06-16 22:55:46,842 29127] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [rollback() done of transaction 192.168.1.3.tm0000100070]
+[2019-06-16 22:55:46,843 29128] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:136)] [Rolled back transaction for test context [DefaultTestContext@ecfbe91 testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@20ed3303, testMethod = test@LangUserMapperTest, testException = org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00903: 表名无效
+
+### The error may exist in file [E:\zhongyi\spring\target\classes\com\xu\hao\mysql\mapper\UserMapper.xml]
+### The error may involve com.hao.xu.lang.mapper.mysql.UserMapper.selectByPrimaryKey-Inline
+### The error occurred while setting parameters
+### SQL: select           ID, name, department, SCORE         from User     where ID = ?
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00903: 表名无效
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00903: 表名无效
+, mergedContextConfiguration = [MergedContextConfiguration@773bd77b testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].]
+[2019-06-16 22:55:46,861 29146] [INFO ] [Thread-1] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:951)] [Closing org.springframework.context.support.GenericApplicationContext@4facf68f: startup date [Sun Jun 16 22:55:18 CST 2019]; root of context hierarchy]
+[2019-06-16 22:55:46,869 29154] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-0} closing ...]
+[2019-06-16 22:55:46,869 29154] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-1} closing ...]
+[2019-06-16 22:55:47,650 29935] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-1} closed]
+[2019-06-16 22:56:15,369 0] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:259)] [Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+[2019-06-16 22:56:15,390 21] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:185)] [Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5e5792a0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@26653222, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3532ec19, org.springframework.test.context.support.DirtiesContextTestExecutionListener@68c4039c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ae45eb6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@59f99ea]]
+[2019-06-16 22:56:15,492 123] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [applicationContext.xml]]
+[2019-06-16 22:56:15,732 363] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [spring-mybatis.xml]]
+[2019-06-16 22:56:15,787 418] [INFO ] [main] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:573)] [Refreshing org.springframework.context.support.GenericApplicationContext@4e1d422d: startup date [Sun Jun 16 22:56:15 CST 2019]; root of context hierarchy]
+[2019-06-16 22:56:16,043 674] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from class path resource [jdbc.properties]]
+[2019-06-16 22:56:16,297 928] [WARN ] [main] [com.alibaba.druid.pool.DruidAbstractDataSource.setDriverClassName(DruidAbstractDataSource.java:1214)] [oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.]
+[2019-06-16 22:56:16,847 1478] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from URL [file:/E:/zhongyi/spring/target/classes/jdbc.properties]]
+[2019-06-16 22:56:17,356 1987] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:490)] [Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@27eedb64]
+[2019-06-16 22:56:17,357 1988] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:501)] [Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@64c63c79]
+[2019-06-16 22:56:17,450 2081] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 22:56:17,450 2081] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 22:56:17,675 2306] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 22:56:18,261 2892] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-1} inited]
+[2019-06-16 22:56:18,271 2902] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [oracleDataSource: refreshed XAResource]
+[2019-06-16 22:56:18,450 3081] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 22:56:18,457 3088] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'mysqlDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 22:56:18,459 3090] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 22:56:25,566 10197] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-2} inited]
+[2019-06-16 22:56:25,571 10202] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [mysqlDataSource: refreshed XAResource]
+[2019-06-16 22:56:26,490 11121] [INFO ] [Thread-1] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:951)] [Closing org.springframework.context.support.GenericApplicationContext@4e1d422d: startup date [Sun Jun 16 22:56:15 CST 2019]; root of context hierarchy]
+[2019-06-16 22:56:26,495 11126] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-2} closing ...]
+[2019-06-16 22:56:26,499 11130] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-2} closed]
+[2019-06-16 22:56:26,500 11131] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-1} closing ...]
+[2019-06-16 22:56:26,636 11267] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-1} closed]
+[2019-06-16 22:56:38,410 1] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:259)] [Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]]
+[2019-06-16 22:56:38,427 18] [INFO ] [main] [org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:185)] [Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@66a3ffec, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@77caeb3e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e88b3c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@42d80b78, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3bfdc050, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1bce4f0a]]
+[2019-06-16 22:56:38,529 120] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [applicationContext.xml]]
+[2019-06-16 22:56:38,736 327] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [spring-mybatis.xml]]
+[2019-06-16 22:56:38,786 377] [INFO ] [main] [org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:573)] [Refreshing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 22:56:38 CST 2019]; root of context hierarchy]
+[2019-06-16 22:56:39,048 639] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from class path resource [jdbc.properties]]
+[2019-06-16 22:56:39,475 1066] [WARN ] [main] [com.alibaba.druid.pool.DruidAbstractDataSource.setDriverClassName(DruidAbstractDataSource.java:1214)] [oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.]
+[2019-06-16 22:56:40,053 1644] [INFO ] [main] [org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(PropertiesLoaderSupport.java:172)] [Loading properties file from URL [file:/E:/zhongyi/spring/target/classes/jdbc.properties]]
+[2019-06-16 22:56:40,417 2008] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:490)] [Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionImp@7331196b]
+[2019-06-16 22:56:40,417 2008] [INFO ] [main] [org.springframework.transaction.jta.JtaTransactionManager.checkUserTransactionAndTransactionManager(JtaTransactionManager.java:501)] [Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@3f9342d4]
+[2019-06-16 22:56:40,525 2116] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [createCompositeTransaction ( 300000 ): created new ROOT transaction with id 192.168.1.3.tm0000100072]
+[2019-06-16 22:56:40,529 2120] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.startTransaction(TransactionContext.java:101)] [Began transaction (1) for test context [DefaultTestContext@331acdad testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@41d426b5, testMethod = test@LangUserMapperTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7e4204e2 testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]; transaction manager [org.springframework.transaction.jta.JtaTransactionManager@8dbfffb]; rollback [true]]
+[2019-06-16 22:56:40,549 2140] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!]
+[2019-06-16 22:56:40,550 2141] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!]
+[2019-06-16 22:56:40,736 2327] [WARN ] [main] [com.alibaba.druid.pool.DruidDataSource.initCheck(DruidDataSource.java:1231)] [removeAbandoned is true, not use in productiion.]
+[2019-06-16 22:56:41,327 2918] [INFO ] [main] [com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:1003)] [{dataSource-1} inited]
+[2019-06-16 22:56:41,338 2929] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [oracleDataSource: refreshed XAResource]
+[2019-06-16 22:56:41,372 2963] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [addParticipant ( XAResourceTransaction: 3139322E3136382E312E332E746D30303030313030303732:3139322E3136382E312E332E746D31 ) for transaction 192.168.1.3.tm0000100072]
+[2019-06-16 22:56:41,372 2963] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.start ( 3139322E3136382E312E332E746D30303030313030303732:3139322E3136382E312E332E746D31 , XAResource.TMNOFLAGS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@21362712]
+[2019-06-16 22:56:41,457 3048] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f22a ) for transaction 192.168.1.3.tm0000100072]
+[2019-06-16 22:56:41,514 3105] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [registerSynchronization ( com.atomikos.jdbc.AtomikosConnectionProxy$JdbcRequeueSynchronization@e693f22a ) for transaction 192.168.1.3.tm0000100072]
+[2019-06-16 22:56:41,548 3139] [INFO ] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)] [Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]]
+[2019-06-16 22:56:41,604 3195] [INFO ] [main] [org.springframework.jdbc.support.SQLErrorCodesFactory.<init>(SQLErrorCodesFactory.java:126)] [SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]]
+[2019-06-16 22:56:41,617 3208] [ERROR] [main] [com.alibaba.druid.pool.DruidDataSource.handleFatalError(DruidDataSource.java:1777)] [discard connection]
+java.sql.SQLException: 关闭的语句
+	at oracle.jdbc.driver.OracleClosedStatement.clearParameters(OracleClosedStatement.java:4086)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.clearParameters(OraclePreparedStatementWrapper.java:1377)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3381)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_clearParameters(FilterAdapter.java:1076)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3378)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.clearParameters(PreparedStatementProxyImpl.java:151)
+	at com.alibaba.druid.pool.DruidPooledConnection.closePoolableStatement(DruidPooledConnection.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.close(DruidPooledPreparedStatement.java:201)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy41.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:328)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:294)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:460)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:106)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:945)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:842)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:830)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:125)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:218)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:93)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:86)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:241)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+[2019-06-16 22:56:41,625 3216] [WARN ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:107)] [Error closing pending statement: 
+java.sql.SQLException: 关闭的语句
+	at oracle.jdbc.driver.OracleClosedStatement.clearParameters(OracleClosedStatement.java:4086)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.clearParameters(OraclePreparedStatementWrapper.java:1377)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3381)
+	at com.alibaba.druid.filter.FilterAdapter.preparedStatement_clearParameters(FilterAdapter.java:1076)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_clearParameters(FilterChainImpl.java:3378)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.clearParameters(PreparedStatementProxyImpl.java:151)
+	at com.alibaba.druid.pool.DruidPooledConnection.closePoolableStatement(DruidPooledConnection.java:156)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.close(DruidPooledPreparedStatement.java:201)
+	at com.atomikos.jdbc.AbstractConnectionProxy.forceCloseAllPendingStatements(AbstractConnectionProxy.java:60)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.close(AtomikosConnectionProxy.java:221)
+	at com.atomikos.jdbc.AtomikosConnectionProxy.invoke(AtomikosConnectionProxy.java:151)
+	at com.sun.proxy.$Proxy41.close(Unknown Source)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doCloseConnection(DataSourceUtils.java:341)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doReleaseConnection(DataSourceUtils.java:328)
+	at org.springframework.jdbc.datasource.DataSourceUtils.releaseConnection(DataSourceUtils.java:294)
+	at org.springframework.jdbc.datasource.DataSourceUtils$ConnectionSynchronization.beforeCompletion(DataSourceUtils.java:460)
+	at org.springframework.transaction.support.TransactionSynchronizationUtils.triggerBeforeCompletion(TransactionSynchronizationUtils.java:106)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.triggerBeforeCompletion(AbstractPlatformTransactionManager.java:945)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processRollback(AbstractPlatformTransactionManager.java:842)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.rollback(AbstractPlatformTransactionManager.java:830)
+	at org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:125)
+	at org.springframework.test.context.transaction.TransactionalTestExecutionListener.afterTestMethod(TransactionalTestExecutionListener.java:218)
+	at org.springframework.test.context.TestContextManager.afterTestMethod(TestContextManager.java:313)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:93)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:86)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:241)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:87)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:180)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)]
+[2019-06-16 22:56:41,626 3217] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.end ( 3139322E3136382E312E332E746D30303030313030303732:3139322E3136382E312E332E746D31 , XAResource.TMSUCCESS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@21362712]
+[2019-06-16 22:56:41,629 3220] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [XAResource.end ( 3139322E3136382E312E332E746D30303030313030303732:3139322E3136382E312E332E746D31 , XAResource.TMSUCCESS ) on resource oracleDataSource represented by XAResource instance oracle.jdbc.xa.client.OracleXAResource@21362712]
+[2019-06-16 22:56:41,632 3223] [INFO ] [main] [com.atomikos.diagnostics.Slf4jConsole.println(Slf4jConsole.java:110)] [rollback() done of transaction 192.168.1.3.tm0000100072]
+[2019-06-16 22:56:41,632 3223] [INFO ] [main] [org.springframework.test.context.transaction.TransactionContext.endTransaction(TransactionContext.java:136)] [Rolled back transaction for test context [DefaultTestContext@331acdad testClass = LangUserMapperTest, testInstance = com.hao.xu.lang.mapper.oracle.LangUserMapperTest@41d426b5, testMethod = test@LangUserMapperTest, testException = org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00903: 表名无效
+
+### The error may exist in file [E:\zhongyi\spring\target\classes\com\xu\hao\mysql\mapper\UserMapper.xml]
+### The error may involve com.hao.xu.lang.mapper.mysql.UserMapper.selectByPrimaryKey-Inline
+### The error occurred while setting parameters
+### SQL: select           ID, name, department, SCORE         from User     where ID = ?
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00903: 表名无效
+
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: ORA-00903: 表名无效
+, mergedContextConfiguration = [MergedContextConfiguration@7e4204e2 testClass = LangUserMapperTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].]
+[2019-06-16 22:56:41,661 3252] [INFO ] [Thread-1] [org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:951)] [Closing org.springframework.context.support.GenericApplicationContext@56235b8e: startup date [Sun Jun 16 22:56:38 CST 2019]; root of context hierarchy]
+[2019-06-16 22:56:41,677 3268] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-0} closing ...]
+[2019-06-16 22:56:41,677 3268] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1948)] [{dataSource-1} closing ...]
+[2019-06-16 22:56:41,803 3394] [INFO ] [Thread-1] [com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2020)] [{dataSource-1} closed]

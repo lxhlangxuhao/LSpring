@@ -1,0 +1,354 @@
+[14:30:57:574] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[14:37:02:902] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[14:37:27:590] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[14:37:27:601] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7161e84a]
+[14:37:28:454] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@135c1a1a] will be managed by Spring
+[14:37:28:461] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[14:37:28:580] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[14:37:28:607] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 0
+[14:37:28:608] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[14:37:28:609] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7161e84a]
+[14:37:28:609] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7161e84a]
+[14:37:28:610] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7161e84a]
+[14:40:34:872] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[14:40:35:341] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[14:41:06:803] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[14:41:07:087] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af]
+[14:42:15:751] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7ca62478] will be managed by Spring
+[14:42:16:701] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[14:42:26:083] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[14:42:31:445] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[14:42:31:465] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[14:42:31:473] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af]
+[14:42:38:366] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af] from current transaction
+[14:42:38:370] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af]
+[14:42:42:027] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af] from current transaction
+[14:42:42:032] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af]
+[14:42:49:996] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[14:42:50:001] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb83424]
+[14:43:32:949] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4b21a661] will be managed by Spring
+[14:43:32:954] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, name, department, SCORE from User where ID = ? 
+[14:43:33:801] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[14:43:34:023] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[14:43:34:037] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-110004, pstmt-120000} enter cache
+[14:43:34:041] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb83424]
+[14:43:48:017] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af]
+[14:43:48:019] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb83424]
+[14:43:48:020] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af]
+[14:43:48:020] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@118b05af]
+[14:43:48:021] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb83424]
+[14:43:48:021] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cb83424]
+[15:08:25:748] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:08:25:914] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:09:28:102] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:09:28:113] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447]
+[15:09:29:158] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7d8eee90] will be managed by Spring
+[15:09:29:166] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:09:29:308] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:09:29:358] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:09:29:360] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:09:29:361] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447]
+[15:09:29:361] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447] from current transaction
+[15:09:29:361] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:09:29:362] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:09:29:363] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:09:29:364] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447]
+[15:09:29:364] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447] from current transaction
+[15:09:29:365] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:09:29:365] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:09:29:367] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:09:29:368] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447]
+[15:09:29:369] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:09:29:369] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fdcae68]
+[15:09:47:008] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@19953906] will be managed by Spring
+[15:09:47:009] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, name, department, SCORE from User where ID = ? 
+[15:09:47:982] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[15:09:49:928] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:09:49:929] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-110004, pstmt-120000} enter cache
+[15:09:49:929] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fdcae68]
+[15:09:49:930] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447]
+[15:09:49:930] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fdcae68]
+[15:09:49:930] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447]
+[15:09:49:930] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c758447]
+[15:09:49:931] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fdcae68]
+[15:09:49:931] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fdcae68]
+[15:12:25:717] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:12:25:893] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:12:33:949] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:12:33:962] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961]
+[15:12:34:871] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@52e92f0b] will be managed by Spring
+[15:12:34:879] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:12:35:029] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:12:35:079] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:12:35:081] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:12:35:082] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961]
+[15:12:35:082] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961] from current transaction
+[15:12:35:083] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:12:35:084] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:12:35:085] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:12:35:086] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961]
+[15:12:35:086] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961] from current transaction
+[15:12:35:087] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:12:35:087] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:12:35:089] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:12:35:090] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961]
+[15:12:35:091] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:12:35:092] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45a56215]
+[15:12:47:934] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@fa7521b] will be managed by Spring
+[15:12:47:934] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, name, department, SCORE from User where ID = ? 
+[15:12:47:993] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[15:12:48:023] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:12:48:023] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-110004, pstmt-120000} enter cache
+[15:12:48:024] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45a56215]
+[15:12:48:024] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961]
+[15:12:48:025] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45a56215]
+[15:12:48:025] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961]
+[15:12:48:025] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6443f961]
+[15:12:48:025] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45a56215]
+[15:12:48:026] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45a56215]
+[15:13:47:362] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:13:47:880] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:14:12:630] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:14:12:648] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e582df1]
+[15:14:14:440] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5cc006b0] will be managed by Spring
+[15:14:14:462] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:14:14:804] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:14:14:918] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:14:14:924] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:14:14:930] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e582df1]
+[15:14:14:931] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e582df1] from current transaction
+[15:14:14:931] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:14:14:933] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:14:14:935] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:14:14:937] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e582df1]
+[15:14:14:938] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e582df1] from current transaction
+[15:14:14:939] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:14:14:940] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:14:14:942] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:14:14:943] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e582df1]
+[15:14:14:944] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:14:14:945] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e135f86]
+[15:15:15:587] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:15:15:764] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:16:12:158] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:16:12:174] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70]
+[15:16:13:217] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7a207f75] will be managed by Spring
+[15:16:13:226] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:16:13:357] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:16:13:406] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:16:13:407] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:16:13:408] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70]
+[15:16:13:409] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70] from current transaction
+[15:16:13:409] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70]
+[15:16:13:410] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70] from current transaction
+[15:16:13:410] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70]
+[15:16:13:411] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:16:13:411] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db28103]
+[15:16:29:004] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1ef493f6] will be managed by Spring
+[15:16:29:004] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, name, department, SCORE from User where ID = ? 
+[15:16:29:962] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[15:16:29:992] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:16:29:992] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-110004, pstmt-120000} enter cache
+[15:16:29:993] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db28103]
+[15:16:29:993] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70]
+[15:16:29:994] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db28103]
+[15:16:29:994] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70]
+[15:16:29:995] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44012f70]
+[15:16:29:995] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db28103]
+[15:16:29:995] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7db28103]
+[15:17:06:793] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:17:07:039] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:17:21:972] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:17:21:989] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89]
+[15:17:23:053] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@533bb8a8] will be managed by Spring
+[15:17:23:060] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:17:23:176] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:17:23:219] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:17:23:220] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:17:23:220] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89]
+[15:17:23:221] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89] from current transaction
+[15:17:23:221] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:17:23:222] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:17:23:223] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:17:23:224] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89]
+[15:17:23:224] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89] from current transaction
+[15:17:23:225] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:17:23:226] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:17:23:228] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:17:23:228] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89]
+[15:17:23:229] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:17:23:229] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b9c9b5d]
+[15:17:37:973] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@212281ad] will be managed by Spring
+[15:17:37:973] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, name, department, SCORE from User where ID = ? 
+[15:17:38:021] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[15:17:38:932] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:17:38:932] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-110004, pstmt-120000} enter cache
+[15:17:38:933] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b9c9b5d]
+[15:17:38:934] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89]
+[15:17:38:934] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b9c9b5d]
+[15:17:38:934] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89]
+[15:17:38:935] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67217a89]
+[15:17:38:935] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b9c9b5d]
+[15:17:38:936] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7b9c9b5d]
+[15:22:17:651] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:22:17:830] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:22:26:417] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:22:26:425] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1]
+[15:22:27:410] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@acafb8c] will be managed by Spring
+[15:22:27:417] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:22:27:561] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:22:27:610] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:22:27:612] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:22:27:613] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1]
+[15:22:27:614] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1] from current transaction
+[15:22:27:614] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1]
+[15:22:27:615] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1] from current transaction
+[15:22:27:616] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1]
+[15:22:27:618] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:22:27:619] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1204ea94]
+[15:22:39:023] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1dc52e81] will be managed by Spring
+[15:22:39:024] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, name, department, SCORE from User where ID = ? 
+[15:22:39:960] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Integer)
+[15:22:39:984] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:22:39:984] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-110004, pstmt-120000} enter cache
+[15:22:39:985] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1204ea94]
+[15:22:39:985] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1]
+[15:22:39:986] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1204ea94]
+[15:22:39:986] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1]
+[15:22:39:986] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@133d75a1]
+[15:22:39:987] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1204ea94]
+[15:22:39:987] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1204ea94]
+[15:53:21:505] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:53:21:691] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:55:38:038] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:55:38:048] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6]
+[15:55:39:606] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@43eff8e1] will be managed by Spring
+[15:55:39:614] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:55:39:904] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:55:39:967] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:55:39:968] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:55:39:970] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6]
+[15:55:39:971] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6] from current transaction
+[15:55:39:971] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6]
+[15:55:39:972] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6] from current transaction
+[15:55:39:972] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6]
+[15:55:39:973] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCommit(SqlSessionUtils.java:286) - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6]
+[15:55:39:974] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6]
+[15:55:39:974] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e526ce6]
+[15:58:19:624] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:58:19:821] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[15:58:20:584] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[15:58:20:594] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9]
+[15:58:21:899] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4351171a] will be managed by Spring
+[15:58:21:902] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[15:58:21:974] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[15:58:22:022] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[15:58:22:024] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[15:58:22:025] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9]
+[15:58:22:025] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9] from current transaction
+[15:58:22:026] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9]
+[15:58:22:027] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9] from current transaction
+[15:58:22:027] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9]
+[15:58:22:028] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9]
+[15:58:22:028] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63648ee9]
+[16:02:28:652] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:02:28:859] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:02:29:606] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[16:02:29:612] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c6daf0] was not registered for synchronization because synchronization is not active
+[16:02:31:224] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3088660d] will not be managed by Spring
+[16:02:31:230] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:02:31:335] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:02:31:413] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:02:31:414] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[16:02:31:417] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c6daf0]
+[16:02:31:420] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[16:02:31:422] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@272a179c] was not registered for synchronization because synchronization is not active
+[16:02:31:423] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3088660d] will not be managed by Spring
+[16:02:31:425] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:02:31:426] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:02:31:431] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:02:31:435] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@272a179c]
+[16:02:31:435] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[16:02:31:437] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:150) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67207d8a] was not registered for synchronization because synchronization is not active
+[16:02:31:438] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3088660d] will not be managed by Spring
+[16:02:31:439] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:02:31:442] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:02:31:444] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:02:31:445] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:193) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67207d8a]
+[16:12:50:754] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:12:50:880] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:12:51:426] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[16:12:51:431] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71]
+[16:12:52:377] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61f2c3f0] will be managed by Spring
+[16:12:52:381] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:12:52:485] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:12:52:515] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:12:52:516] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[16:12:52:517] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71]
+[16:12:52:517] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71] from current transaction
+[16:12:52:518] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71]
+[16:12:52:518] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71] from current transaction
+[16:12:52:518] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71]
+[16:12:52:519] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71]
+[16:12:52:519] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76a36b71]
+[16:16:21:818] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:16:22:160] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:16:22:983] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[16:16:22:991] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:16:24:459] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3c2772d1] will be managed by Spring
+[16:16:24:463] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:16:24:575] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:16:24:615] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:16:24:617] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[16:16:24:618] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:16:24:619] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5] from current transaction
+[16:16:24:620] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:16:24:621] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5] from current transaction
+[16:16:24:621] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:16:24:622] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:16:24:623] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:11:267] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:47:11:374] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:47:12:163] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[16:47:12:168] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:13:351] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3c2772d1] will be managed by Spring
+[16:47:13:357] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:47:13:461] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:47:13:499] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:47:13:500] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[16:47:13:501] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:13:503] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5] from current transaction
+[16:47:13:504] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:13:504] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5] from current transaction
+[16:47:13:505] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:13:506] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:13:506] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:53:744] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:47:53:890] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:135) - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+[16:47:54:742] [DEBUG] - org.mybatis.spring.SqlSessionUtils.getSqlSession(SqlSessionUtils.java:99) - Creating a new SqlSession
+[16:47:54:762] [DEBUG] - org.mybatis.spring.SqlSessionUtils.registerSessionHolder(SqlSessionUtils.java:130) - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:55:994] [DEBUG] - org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:87) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@3c2772d1] will be managed by Spring
+[16:47:55:998] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:47:56:083] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:47:56:113] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:47:56:114] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20000} enter cache
+[16:47:56:114] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:56:115] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5] from current transaction
+[16:47:56:116] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select S_LANG_USER_PK.nextval from dual 
+[16:47:56:117] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 
+[16:47:56:121] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:47:56:121] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20001} enter cache
+[16:47:56:121] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: insert into LANG_USER (ID, NAME, AGE, SCORE) values (?, ?, ?, ?) 
+[16:47:56:123] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: 1(Long), 红太狼(String), 5(Integer), 90(String)
+[16:47:56:140] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==    Updates: 1
+[16:47:56:140] [DEBUG] - com.alibaba.druid.support.logging.Log4j2Impl.debug(Log4j2Impl.java:63) - {conn-10004, pstmt-20002} enter cache
+[16:47:56:141] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:56:141] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5] from current transaction
+[16:47:56:141] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==>  Preparing: select ID, NAME, AGE, SCORE from LANG_USER where ID = ? 
+[16:47:56:142] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - ==> Parameters: -1(Integer)
+[16:47:56:143] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:142) - <==      Total: 1
+[16:47:56:144] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:56:144] [DEBUG] - org.mybatis.spring.SqlSessionUtils.sessionHolder(SqlSessionUtils.java:165) - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5] from current transaction
+[16:47:56:145] [DEBUG] - org.mybatis.spring.SqlSessionUtils.closeSqlSession(SqlSessionUtils.java:188) - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:56:145] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:312) - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]
+[16:47:56:146] [DEBUG] - org.mybatis.spring.SqlSessionUtils$SqlSessionSynchronization.beforeCompletion(SqlSessionUtils.java:317) - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@117e0fe5]

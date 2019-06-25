@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+<!--    <bean id="test3" class="com.hao.xu.lang.AspectLang.Test3"/>-->
+<!--    <aop:config proxy-target-class="true">-->
+<!--        <aop:pointcut expression="execution(* com.hao.xu.lang.mapper.*.*(..))" id="cut1"/>-->
+<!--        <aop:advisor advice-ref="test3" pointcut-ref="cut1"/>-->
+
+<!--        <aop:advisor advice-ref="dataSourceExchangeAspect" pointcut-ref="cut1" order="1"/>-->
+<!--        <aop:advisor advice-ref="txAdvice" pointcut-ref="cut1" order="2" />-->
+<!--    </aop:config>-->
+
+</beans>

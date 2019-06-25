@@ -1,0 +1,41 @@
+[14:09:52:477] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[14:14:22:004] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[14:30:40:680] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[14:30:56:742] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[14:37:02:693] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[14:37:27:858] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[14:40:34:077] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[14:41:21:714] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[14:42:50:158] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:08:25:540] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:09:28:459] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:09:29:375] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:12:25:508] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:12:34:212] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:12:35:103] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:13:46:989] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:14:13:154] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:14:14:958] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:15:15:383] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:16:12:488] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:16:13:420] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:17:06:525] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:17:22:404] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:17:23:235] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:22:17:421] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:22:26:702] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:22:27:627] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:53:21:300] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:55:38:568] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[15:58:19:180] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[15:58:21:095] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[16:02:28:411] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[16:02:29:863] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[16:12:50:475] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[16:12:51:599] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[16:16:21:517] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[16:16:23:437] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[16:47:11:063] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[16:47:12:431] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.
+[16:47:53:461] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+[16:47:55:217] [WARN] - com.alibaba.druid.support.logging.Log4j2Impl.warn(Log4j2Impl.java:72) - removeAbandoned is true, not use in productiion.

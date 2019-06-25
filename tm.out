@@ -1,0 +1,33 @@
+19-06-19 15:58:20,328 [main] Logfile closed: D:\GitHub project\Persist\.\tmlog-1.log
+19-06-19 15:58:20,619 [main] AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!
+19-06-19 15:58:20,619 [main] AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!
+19-06-19 15:58:20,637 [main] Coordinator not recoverable: 115.171.209.186.tm0000100001
+19-06-19 16:02:29,428 [main] Starting read of logfile D:\GitHub project\Persist\.\tmlog0.log
+19-06-19 16:02:29,429 [main] Done read of logfile
+19-06-19 16:02:29,430 [main] Logfile closed: D:\GitHub project\Persist\.\tmlog0.log
+19-06-19 16:02:29,625 [main] AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!
+19-06-19 16:02:29,626 [main] AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!
+19-06-19 16:12:51,252 [main] Starting read of logfile D:\GitHub project\Persist\.\tmlog1.log
+19-06-19 16:12:51,252 [main] Done read of logfile
+19-06-19 16:12:51,253 [main] Logfile closed: D:\GitHub project\Persist\.\tmlog1.log
+19-06-19 16:12:51,440 [main] AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!
+19-06-19 16:12:51,440 [main] AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!
+19-06-19 16:12:51,456 [main] Coordinator not recoverable: 115.171.209.186.tm0000100003
+19-06-19 16:16:22,722 [main] Starting read of logfile D:\GitHub project\Persist\.\tmlog2.log
+19-06-19 16:16:22,723 [main] Done read of logfile
+19-06-19 16:16:22,724 [main] Logfile closed: D:\GitHub project\Persist\.\tmlog2.log
+19-06-19 16:16:23,005 [main] AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!
+19-06-19 16:16:23,006 [main] AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!
+19-06-19 16:16:23,025 [main] Coordinator not recoverable: 115.171.209.186.tm0000100004
+19-06-19 16:47:11,920 [main] Starting read of logfile D:\GitHub project\Persist\.\tmlog3.log
+19-06-19 16:47:11,920 [main] Done read of logfile
+19-06-19 16:47:11,920 [main] Logfile closed: D:\GitHub project\Persist\.\tmlog3.log
+19-06-19 16:47:12,180 [main] AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!
+19-06-19 16:47:12,181 [main] AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!
+19-06-19 16:47:12,198 [main] Coordinator not recoverable: 115.171.209.186.tm0000100005
+19-06-19 16:47:54,476 [main] Starting read of logfile D:\GitHub project\Persist\.\tmlog4.log
+19-06-19 16:47:54,477 [main] Done read of logfile
+19-06-19 16:47:54,477 [main] Logfile closed: D:\GitHub project\Persist\.\tmlog4.log
+19-06-19 16:47:54,782 [main] AtomikosDataSoureBean 'oracleDataSource': no testQuery set - the connection pool will not be able to validate the connections!
+19-06-19 16:47:54,782 [main] AtomikosDataSoureBean 'oracleDataSource': poolSize equals default - this may cause performance problems!
+19-06-19 16:47:54,801 [main] Coordinator not recoverable: 115.171.209.186.tm0000100006

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	       http://www.springframework.org/schema/beans/spring-beans.xsd
+	       http://www.springframework.org/schema/tx
+	       http://www.springframework.org/schema/tx/spring-tx.xsd
+	       http://www.springframework.org/schema/aop
+	       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- oracle 数据源 is default -->
+	<bean id="oracleDataSource" class="com.alibaba.druid.pool.xa.DruidXADataSource">
+	<!-- 数据库基本信息配置 -->
+		<property name="driverClassName" value="${system.oracle.driver.name}" />
+		<property name="url" value="${system.oracle.url}" />
+		<property name="username" value="${system.oracle.username}" />
+		<property name="password" value="${system.oracle.password}" />
+		<!-- 初始化连接数量 -->
+		<property name="initialSize" value="${druid.initialSize}" />
+		<!-- 最大并发连接数 -->
+		<property name="maxActive" value="${druid.maxActive}" />
+		<!-- 最小空闲连接数 -->
+		<property name="minIdle" value="${druid.minIdle}" />
+		<!-- 配置获取连接等待超时的时间 -->
+		<property name="maxWait" value="${druid.maxWait}" />
+		<!-- 超过时间限制是否回收 -->
+		<property name="removeAbandoned" value="${druid.removeAbandoned}" />
+		<!-- 超过时间限制多长； -->
+		<property name="removeAbandonedTimeout" value="${druid.removeAbandonedTimeout}" />
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}" />
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}" />
+		<!-- 用来检测连接是否有效的sql，要求是一个查询语句 -->
+		<property name="validationQuery" value="${druid.validationQuery}" />
+		<!-- 申请连接的时候检测 -->
+		<property name="testWhileIdle" value="${druid.testWhileIdle}" />
+		<!-- 申请连接时执行validationQuery检测连接是否有效，配置为true会降低性能 -->
+		<property name="testOnBorrow" value="${druid.testOnBorrow}" />
+		<!-- 归还连接时执行validationQuery检测连接是否有效，配置为true会降低性能 -->
+		<property name="testOnReturn" value="${druid.testOnReturn}" />
+		<!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+		<property name="poolPreparedStatements" value="${druid.poolPreparedStatements}" />
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="${druid.maxPoolPreparedStatementPerConnectionSize}" />
+		<!--属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有： 监控统计用的filter:stat 日志用的filter:log4j 防御SQL注入的filter:wall -->
+		<property name="filters" value="${druid.filters}" />
+	</bean>
+
+	<!-- mysql 数据源 -->
+	<bean id="mysqlDataSource" class="com.alibaba.druid.pool.xa.DruidXADataSource" >
+		<!-- 数据库基本信息配置 -->
+		<property name="driverClassName" value="${system.mysql.driver.name}" />
+		<property name="url" value="${system.mysql.url}" />
+		<property name="username" value="${system.mysql.username}" />
+		<property name="password" value="${system.mysql.password}" />
+		<!-- 初始化连接数量 -->
+		<property name="initialSize" value="${druid.initialSize}" />
+		<!-- 最大并发连接数 -->
+		<property name="maxActive" value="${druid.maxActive}" />
+		<!-- 最小空闲连接数 -->
+		<property name="minIdle" value="${druid.minIdle}" />
+		<!-- 配置获取连接等待超时的时间 -->
+		<property name="maxWait" value="${druid.maxWait}" />
+		<!-- 超过时间限制是否回收 -->
+		<property name="removeAbandoned" value="${druid.removeAbandoned}" />
+		<!-- 超过时间限制多长； -->
+		<property name="removeAbandonedTimeout" value="${druid.removeAbandonedTimeout}" />
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}" />
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}" />
+		<!-- 用来检测连接是否有效的sql，要求是一个查询语句 -->
+		<property name="validationQuery" value="${druid.validationQuery}" />
+		<!-- 申请连接的时候检测 -->
+		<property name="testWhileIdle" value="${druid.testWhileIdle}" />
+		<!-- 申请连接时执行validationQuery检测连接是否有效，配置为true会降低性能 -->
+		<property name="testOnBorrow" value="${druid.testOnBorrow}" />
+		<!-- 归还连接时执行validationQuery检测连接是否有效，配置为true会降低性能 -->
+		<property name="testOnReturn" value="${druid.testOnReturn}" />
+		<!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+		<property name="poolPreparedStatements" value="${druid.poolPreparedStatements}" />
+		<property name="maxPoolPreparedStatementPerConnectionSize" value="${druid.maxPoolPreparedStatementPerConnectionSize}" />
+		<!--属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有： 监控统计用的filter:stat 日志用的filter:log4j 防御SQL注入的filter:wall -->
+		<property name="filters" value="${druid.filters}" />
+	</bean>
+
+
+	<!--  oracle AtomikosDataSourceBean  -->
+	<bean id="oracleAtomikosDataSource" class="com.atomikos.jdbc.AtomikosDataSourceBean">
+		<property name="uniqueResourceName" value="oracleDataSource" />
+		<property name="xaDataSource" ref="oracleDataSource"/>
+	</bean>
+
+	<!--  mysql AtomikosDataSourceBean  -->
+	<bean id="mysqlAtomikosDataSource" class="com.atomikos.jdbc.AtomikosDataSourceBean">
+		<property name="uniqueResourceName" value="mysqlDataSource" />
+		<property name="xaDataSource" ref="mysqlDataSource"/>
+	</bean>
+
+
+	<!-- oracle sqlSessionFactory -->
+	<bean id="sqlSessionFactoryOracle" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="oracleAtomikosDataSource"/>
+		<property name="mapperLocations" value="classpath*:com/xu/hao/oracle/mapper/*Mapper.xml"/>
+		<property name="configLocation" value="classpath:mybatis-config.xml"/>
+
+	</bean>
+	<!-- mysql sqlSessionFactory -->
+	<bean id="sqlSessionFactoryMysql" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="mysqlAtomikosDataSource"/>
+		<property name="mapperLocations" value="classpath*:com/xu/hao/mysql/mapper/*Mapper.xml"/>
+		<property name="configLocation" value="classpath:mybatis-config.xml"/>
+	</bean>
+
+	<!-- 指定dao文件所在包 并指定所用SqlSessionFactory -->
+	<bean class = "org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name = "basePackage" value="com.hao.xu.lang.mapper.oracle" />
+		<property name = "sqlSessionFactoryBeanName" value = "sqlSessionFactoryOracle" />
+	</bean>
+	<bean class = "org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name = "basePackage" value="com.hao.xu.lang.mapper.mysql" />
+		<property name = "sqlSessionFactoryBeanName" value = "sqlSessionFactoryMysql" />
+	</bean>
+
+	<!-- atomikos事务管理器 start -->
+	<bean id="atomikosTransactionManager" class="com.atomikos.icatch.jta.UserTransactionManager" init-method="init" destroy-method="close">
+		<description>UserTransactionManager</description>
+		<!-- 调用终止时，强制关闭 -->
+		<property name="forceShutdown" value="true"/>
+	</bean>
+	<!-- atomikos用户事务实现 -->
+	<bean id="atomikosUserTransaction" class="com.atomikos.icatch.jta.UserTransactionImp">
+		<property name="transactionTimeout" value="300" />
+	</bean>
+	<bean id="springTransactionManager" class="org.springframework.transaction.jta.JtaTransactionManager">
+		<property name="transactionManager" ref="atomikosTransactionManager"/>
+		<property name="userTransaction" ref="atomikosUserTransaction"/>
+	</bean>
+	<!-- spring 事务管理器 end -->
+
+
+	<!-- 数据源动态切换 start -->
+<!--	<bean id="dataSourceAspect" class="com.hao.xu.lang.AspectLang.DynamicSourceAspect"/>-->
+<!--	<aop:config>-->
+<!--		<aop:aspect ref="dataSourceAspect" order="1">-->
+<!--			<aop:pointcut id="dataSourcePointcut" expression="execution(* com.hao.xu.lang.mapper.*.*.*(..))"/>-->
+<!--			<aop:before  pointcut-ref="dataSourcePointcut" method="intercept" />-->
+<!--			<aop:after-returning pointcut-ref="dataSourcePointcut" method="returning"/>-->
+<!--		</aop:aspect>-->
+<!--	</aop:config>-->
+
+<!--	<bean name="dynamicDatasource" class="com.hao.xu.lang.AspectLang.DynamicDataSource">-->
+<!--		<property name="targetDataSources">-->
+<!--			<map>-->
+<!--				&lt;!&ndash; key和value-ref尽量保持一致,只是为了规范减少不必要的麻烦 &ndash;&gt;-->
+<!--				<entry key="oracleAtomikosDataSource" value-ref="oracleAtomikosDataSource"/>-->
+<!--				<entry key="mysqlAtomikosDataSource" value-ref="mysqlAtomikosDataSource"/>-->
+<!--			</map>-->
+<!--		</property>-->
+<!--		&lt;!&ndash; 指定一个默认的数据源，即在不需要切换数据源时，本地系统默认使用的数据源 &ndash;&gt;-->
+<!--		<property name="defaultTargetDataSource" ref="oracleAtomikosDataSource" />-->
+<!--	</bean>-->
+	<!-- 数据源动态切换 end -->
+
+
+	<tx:advice id="txAdvice" transaction-manager="springTransactionManager">
+		<tx:attributes>
+			<tx:method name="*" propagation="REQUIRED"/>
+			<tx:method name="update*" propagation="REQUIRED"/>
+			<tx:method name="delete*" propagation="REQUIRED"/>
+			<tx:method name="insert*" propagation="REQUIRED"/>
+			<tx:method name="get*" read-only="true"/>
+		</tx:attributes>
+	</tx:advice>
+
+	<!-- 开启Spring注解式事务 -->
+	<tx:annotation-driven transaction-manager="springTransactionManager" proxy-target-class="true"/>
+
+	<!-- 配置自定义的SqlSessionTemplate模板，注入相关配置 -->
+	<!--	<bean id="sqlSessionTemplate" class="com.hao.xu.lang.mapper.CustomSqlSessionTemplate" scope="prototype">-->
+	<!--		<constructor-arg ref="sqlSessionFactoryOracle" />-->
+	<!--		<property name="targetSqlSessionFactorys">-->
+	<!--			<map>-->
+	<!--				<entry key="sqlSessionFactoryOracle" value-ref="sqlSessionFactoryOracle"/>-->
+	<!--				<entry key="sqlSessionFactoryMysql" value-ref="sqlSessionFactoryMysql"/>-->
+	<!--			</map>-->
+	<!--		</property>-->
+	<!--	</bean>-->
+
+</beans>
