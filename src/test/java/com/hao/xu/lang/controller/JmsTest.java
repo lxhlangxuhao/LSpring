@@ -1,6 +1,6 @@
 package com.hao.xu.lang.controller;
 
-import core.BasejunitTest;
+import core.BaseJunitTest;
 import java.util.Date;
 import javax.jms.MapMessage;
 import javax.jms.ObjectMessage;
@@ -13,7 +13,7 @@ import org.springframework.jms.core.JmsTemplate;
  * @Date: Created in 19:44 2019/3/9
  */
 
-public class JmsTest extends BasejunitTest {
+public class JmsTest extends BaseJunitTest {
 
 //	@Resource
 	private JmsTemplate jmsTemplate;
