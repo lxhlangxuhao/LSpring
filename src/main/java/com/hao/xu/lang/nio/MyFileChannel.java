@@ -30,6 +30,9 @@ public class MyFileChannel {
 
 	private static void write() {
 		String str = "{\"id\":1,\"name\": \"lang\", \"department\": \"IT\", \"score\": 99}"+"\r\n";
+
+		FileChannel channel = null;
+		RandomAccessFile randomAccessFile = null;
 		try {
 			File file = new File("E:\\test2.txt");
 			long length = file.length();
@@ -39,24 +42,31 @@ public class MyFileChannel {
 					logger.info("创建文件成功");
 				}
 			}
-			//文本流
-			RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
 			//
+			randomAccessFile = new RandomAccessFile(file, "rw");
+			//设置文件指针偏移,追加源文件内容
 			randomAccessFile.seek(randomAccessFile.length());
 //			FileOutputStream fileOutputStream = new FileOutputStream(file, true);
 			//通道
-			FileChannel channel = randomAccessFile.getChannel();
-
+			channel = randomAccessFile.getChannel();
 			//缓存区
 			ByteBuffer wrap = ByteBuffer.wrap(str.getBytes());
 			//写入文件
-			for (int i = 0; i < 2; i++) {
+			for (int i = 0; i < 20000000; i++) {
 				channel.write(wrap);
 				System.out.println(randomAccessFile.getFilePointer());
 				wrap.clear();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
+		}finally {
+			try {
+				assert channel != null;
+				channel.close();
+				randomAccessFile.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 
