@@ -4,7 +4,8 @@ import com.hao.xu.lang.AspectLang.DynamicDataSourceHolder;
 import com.hao.xu.lang.annotation.DataSource;
 import com.hao.xu.lang.entity.LangUser;
 import com.hao.xu.lang.mapper.mysql.UserMapper;
-import core.BasejunitTest;
+import core.BaseJunitTest;
+import core.BaseJunitTest;
 import javax.annotation.Resource;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @Description:
  * @Date: Created in 22:22 2019/6/15
  */
-public class LangUserMapperTest extends BasejunitTest {
+public class LangUserMapperTest extends BaseJunitTest {
 
 	private Logger logger= LogManager.getLogger(this.getClass());
 

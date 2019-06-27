@@ -14,4 +14,6 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 //@Transactional(transactionManager = "springTransactionManager")
 public class BaseJunitTest {
 
+
+
 }
