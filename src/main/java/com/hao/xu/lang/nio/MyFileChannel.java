@@ -31,7 +31,11 @@ public class MyFileChannel {
 
 	public static void main(String[] args) throws Exception{
 
-		test1();
+		File file = new File("E:\\text8.txt");
+		System.out.println(file.length());
+
+
+//		test1();
 //		write();
 	}
 
@@ -100,5 +104,8 @@ public class MyFileChannel {
 			e.printStackTrace();
 		}
 	}
+
+
+
 
 }

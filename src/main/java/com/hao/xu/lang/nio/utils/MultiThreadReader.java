@@ -27,9 +27,24 @@ public class MultiThreadReader implements Runnable {
 	public void run() {
 		try {
 			ByteBuffer byteBuffer = ByteBuffer.allocate(this.subBuffer);
-			int byteBufferLenth = 0;
-			while ((byteBufferLenth = this.fileChannel.read(byteBuffer)) != -1) {
-
+			fileChannel.position(startIndex);
+			int byteBufferLength = 0;
+			while ((byteBufferLength = this.fileChannel.read(byteBuffer)) != -1) {
+//				byte[] tempByte = new byte[byteBufferLength];
+//				byteBuffer.get(tempByte, 0, byteBufferLength);
+				byte[] array = byteBuffer.array();
+				for (int i = 0; i < array.length; i++) {
+					char ca = (char) array[i];
+					if (ca == '\r' || ca == '\n') {
+						break;
+					}
+				}
+//				for (byte b : byteBuffer) {
+//					char ca = (char) b;
+//					if (ca == '\r' || ca == '\n') {
+//						break;
+//					}
+//				}
 			}
 
 

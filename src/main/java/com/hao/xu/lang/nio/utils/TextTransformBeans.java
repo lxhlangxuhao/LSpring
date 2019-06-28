@@ -32,7 +32,7 @@ public class TextTransformBeans {
 		this.subBuffer = subBuffer;
 	}
 
-	private void inputTextTransformBeans() {
+	public void inputTextTransformBeans() {
 		RandomAccessFile file;
 		FileChannel channel;
 		try {
@@ -74,11 +74,8 @@ public class TextTransformBeans {
 
 	public static void main(String[] args) {
 
-		long t1 = 123;
-
-		long t2 = 125 / 3;
-		System.out.println(t2);
-
+		TextTransformBeans textTransformBeans = new TextTransformBeans(new File("E:\\test8.txt"), 1, 50);
+		textTransformBeans.inputTextTransformBeans();
 
 	}
 
