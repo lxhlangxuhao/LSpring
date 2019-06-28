@@ -2,16 +2,15 @@ package com.hao.xu.lang.nio;
 
 import com.google.gson.Gson;
 import com.hao.xu.lang.AspectLang.Operator;
+import com.hao.xu.lang.core.utils.FileUtils;
 import com.hao.xu.lang.entity.User;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.aspectj.util.FileUtil;
 
 /**
  * @Author: Xuhao
@@ -20,43 +19,60 @@ import org.slf4j.LoggerFactory;
  */
 public class MyFileChannel {
 
-	private static final Logger logger = LoggerFactory.getLogger(MyFileChannel.class);
+/*
+	//获取文件通道位置
+	fileChannelInput.position();
+	fileChannelInput.size();
+	//截取内容
+	fileChannelInput.truncate(1024);
+	//强制刷新数据到硬盘
+	fileChannelInput.force(true);
+*/
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception{
 
-//		test1();
-		write();
+		test1();
+//		write();
 	}
 
 	private static void write() {
-		String str = "{\"id\":1,\"name\": \"lang\", \"department\": \"IT\", \"score\": 99}"+"\r\n";
-		try {
-			File file = new File("E:\\test2.txt");
-			long length = file.length();
-			logger.info("文件总长度："+length);
-			if (!file.exists()) {
-				if (file.createNewFile()) {
-					logger.info("创建文件成功");
-				}
-			}
-			//文本流
-			RandomAccessFile randomAccessFile = new RandomAccessFile(file, "rw");
-			//
-			randomAccessFile.seek(randomAccessFile.length());
-//			FileOutputStream fileOutputStream = new FileOutputStream(file, true);
-			//通道
-			FileChannel channel = randomAccessFile.getChannel();
 
-			//缓存区
-			ByteBuffer wrap = ByteBuffer.wrap(str.getBytes());
+		FileChannel channel = null;
+		RandomAccessFile randomAccessFile = null;
+		File file = null;
+		try {
+			file = new File("E:\\test3.txt");
+			if (FileUtils.createFile(file)) {
+				System.out.println("文件创建成功");
+			}
+			//创建读写模式
+			randomAccessFile = new RandomAccessFile(file, "rw");
+			//追加内容
+			randomAccessFile.seek(randomAccessFile.length());
+			//通道
+			channel = randomAccessFile.getChannel();
 			//写入文件
-			for (int i = 0; i < 2; i++) {
+			for (int i = 0; i < 10000000; i++) {
+				String str = "{\"id\":1,\"name\": \"lang\", \"department\": \"IT\", \"score\": "+i+"}"+"\r\n";
+				//写入缓冲区
+				ByteBuffer wrap = ByteBuffer.wrap(str.getBytes());
 				channel.write(wrap);
-				System.out.println(randomAccessFile.getFilePointer());
 				wrap.clear();
+				System.out.println("文件大小："+FileUtils.getFileSizeDescription(file.length()));
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
+		}finally {
+			try {
+				if (channel != null) {
+					channel.close();
+				}
+				if (randomAccessFile != null) {
+					randomAccessFile.close();
+				}
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 	}
 
@@ -64,12 +80,14 @@ public class MyFileChannel {
 	private static void test1() {
 
 		try {
-			RandomAccessFile randomAccessFile = new RandomAccessFile("E:\\test.txt", "rw");
+			RandomAccessFile randomAccessFile = new RandomAccessFile("E:\\test3.txt", "rw");
 			FileChannel channel = randomAccessFile.getChannel();
 			ByteBuffer buffer = ByteBuffer.allocate(48);
 			int offset = 0;
 			while ((offset = channel.read(buffer)) != -1) {
+				int position = buffer.position();
 				buffer.flip();
+				//检查是否还有数据未写入
 				while (buffer.hasRemaining()) {
 					char ch = (char) buffer.get();
 					System.out.print(ch);
@@ -78,8 +96,6 @@ public class MyFileChannel {
 			}
 
 
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
