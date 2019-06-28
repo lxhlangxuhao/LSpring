@@ -46,9 +46,9 @@ public class MyFileChannel {
 		File file = null;
 		try {
 			file = new File("E:\\test3.txt");
-			if (FileUtils.createFile(file)) {
-				System.out.println("文件创建成功");
-			}
+//			if (FileUtils.createFile(file)) {
+//				System.out.println("文件创建成功");
+//			}
 			//创建读写模式
 			randomAccessFile = new RandomAccessFile(file, "rw");
 			//追加内容

@@ -25,31 +25,49 @@ public class MultiThreadReader implements Runnable {
 
 	@Override
 	public void run() {
+		ByteBuffer byteBuffer = null;
 		try {
-			ByteBuffer byteBuffer = ByteBuffer.allocate(this.subBuffer);
+			byteBuffer = ByteBuffer.allocate(this.subBuffer);
 			fileChannel.position(startIndex);
 			int byteBufferLength = 0;
+			byte[] temp = null;
 			while ((byteBufferLength = this.fileChannel.read(byteBuffer)) != -1) {
-//				byte[] tempByte = new byte[byteBufferLength];
-//				byteBuffer.get(tempByte, 0, byteBufferLength);
-				byte[] array = byteBuffer.array();
+				byte[] array;
+				if (temp != null) {
+					array = byteBuffer.array();
+					byte[] temp2 = new byte[temp.length+array.length];
+					System.arraycopy(temp, 0, temp2, 0, temp.length);
+					System.arraycopy(array, 0, temp2, temp.length, array.length);
+					array = temp2;
+				} else {
+					array = byteBuffer.array();
+				}
+
 				for (int i = 0; i < array.length; i++) {
 					char ca = (char) array[i];
+					System.out.println(ca);
 					if (ca == '\r' || ca == '\n') {
+						int overSize = array.length - i - 2;
+
+						temp = new byte[overSize];
+						System.arraycopy(array, i + 2, temp, 0, overSize);
+						byteBuffer.clear();
 						break;
 					}
 				}
-//				for (byte b : byteBuffer) {
-//					char ca = (char) b;
-//					if (ca == '\r' || ca == '\n') {
-//						break;
-//					}
-//				}
 			}
 
 
 		} catch (IOException e) {
 			e.printStackTrace();
+		}finally {
+			if (fileChannel != null) {
+				try {
+					fileChannel.close();
+				} catch (IOException e) {
+					e.printStackTrace();
+				}
+			}
 		}
 
 	}

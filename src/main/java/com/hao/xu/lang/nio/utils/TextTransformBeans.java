@@ -45,6 +45,7 @@ public class TextTransformBeans {
 				channel = file.getChannel();
 				executorService.execute(new MultiThreadReader(channel, i * subSize, subSize, subBuffer));
 			}
+			executorService.shutdown();
 
 
 		} catch (IOException e) {
@@ -74,7 +75,7 @@ public class TextTransformBeans {
 
 	public static void main(String[] args) {
 
-		TextTransformBeans textTransformBeans = new TextTransformBeans(new File("E:\\test8.txt"), 1, 50);
+		TextTransformBeans textTransformBeans = new TextTransformBeans(new File("E:\\test8.txt"), 1, 10);
 		textTransformBeans.inputTextTransformBeans();
 
 	}
