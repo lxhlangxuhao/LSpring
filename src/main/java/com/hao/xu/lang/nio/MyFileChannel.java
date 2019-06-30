@@ -31,11 +31,11 @@ public class MyFileChannel {
 
 	public static void main(String[] args) throws Exception{
 
-		File file = new File("E:\\text8.txt");
-		System.out.println(file.length());
+//		File file = new File("E:\\text8.txt");
+//		System.out.println(file.length());
 
 
-//		test1();
+		test1();
 //		write();
 	}
 
@@ -86,7 +86,7 @@ public class MyFileChannel {
 		try {
 			RandomAccessFile randomAccessFile = new RandomAccessFile("E:\\test3.txt", "rw");
 			FileChannel channel = randomAccessFile.getChannel();
-			ByteBuffer buffer = ByteBuffer.allocate(48);
+			ByteBuffer buffer = ByteBuffer.allocate(4);
 			int offset = 0;
 			while ((offset = channel.read(buffer)) != -1) {
 				int position = buffer.position();

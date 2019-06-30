@@ -75,8 +75,11 @@ public class TextTransformBeans {
 
 	public static void main(String[] args) {
 
-		TextTransformBeans textTransformBeans = new TextTransformBeans(new File("E:\\test8.txt"), 1, 10);
+		TextTransformBeans textTransformBeans = new TextTransformBeans(new File("E:\\test8.txt"), 1, 20);
 		textTransformBeans.inputTextTransformBeans();
+
+		//language=JSON
+		String str = "{\"name\": \"123\", \"age\": 12}";
 
 	}
 
