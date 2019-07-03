@@ -43,7 +43,7 @@ public class TextTransformBeans {
 			//2.创建连接
 				file = new RandomAccessFile(this.inputFile, "rw");
 				channel = file.getChannel();
-				executorService.execute(new MultiThreadReader(channel, i * subSize, subSize, subBuffer));
+				executorService.execute(new MultiThreadReaderV2(channel, i * subSize, subSize, subBuffer));
 			}
 			executorService.shutdown();
 
@@ -75,7 +75,7 @@ public class TextTransformBeans {
 
 	public static void main(String[] args) {
 
-		TextTransformBeans textTransformBeans = new TextTransformBeans(new File("E:\\test8.txt"), 1, 20);
+		TextTransformBeans textTransformBeans = new TextTransformBeans(new File("E:\\test3.txt"), 2, 100);
 		textTransformBeans.inputTextTransformBeans();
 
 		//language=JSON

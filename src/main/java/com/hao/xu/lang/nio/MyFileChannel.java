@@ -87,17 +87,26 @@ public class MyFileChannel {
 			RandomAccessFile randomAccessFile = new RandomAccessFile("E:\\test3.txt", "rw");
 			FileChannel channel = randomAccessFile.getChannel();
 			ByteBuffer buffer = ByteBuffer.allocate(4);
-			int offset = 0;
-			while ((offset = channel.read(buffer)) != -1) {
-				int position = buffer.position();
-				buffer.flip();
-				//检查是否还有数据未写入
-				while (buffer.hasRemaining()) {
-					char ch = (char) buffer.get();
-					System.out.print(ch);
-				}
-				buffer.clear();
-			}
+			int read = channel.read(buffer);
+			long position2 = channel.position();
+//			buffer.flip();
+			long position = channel.position();
+			channel.position(2);
+			long position3 = channel.position();
+			buffer.clear();
+			int read2 = channel.read(buffer);
+			System.out.println();
+//			int offset = 0;
+//			while ((offset = channel.read(buffer)) != -1) {
+//				int position = buffer.position();
+//				buffer.flip();
+//				//检查是否还有数据未写入
+//				while (buffer.hasRemaining()) {
+//					char ch = (char) buffer.get();
+//					System.out.print(ch);
+//				}
+//				buffer.clear();
+//			}
 
 
 		} catch (IOException e) {

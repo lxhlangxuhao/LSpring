@@ -30,8 +30,8 @@ public class MultiThreadReader implements Runnable {
 	@Override
 	public void run() {
 		ByteBuffer byteBuffer;  //缓存数组
-		int position; // 缓存数组当前位子
-		byte[] temp = null;  //临时存放未满足一整条的数据
+		int byteBufSize; // 缓存数组大小
+		byte[] temp = null;  //临时存放不满足的一整条的数据
 		boolean isRowData = false;  //是否为完整的一条数据
 		boolean isLastRow = true;  //是否为最后一条没换行符的数据
 		byte[] bufByteArr; // temp + byteBuffer的实际存放数据
@@ -39,11 +39,11 @@ public class MultiThreadReader implements Runnable {
 		try {
 			byteBuffer = ByteBuffer.allocate(this.subBuffer);
 			fileChannel.position(posotionStartIndex);
-			while ((position = this.fileChannel.read(byteBuffer)) != -1) {
+			while ((byteBufSize = this.fileChannel.read(byteBuffer)) != -1) {
 				isLastRow = true;
 				int startIdx = 0;
-				bufByteArr = new byte[position];
-				System.arraycopy(byteBuffer.array(),0,bufByteArr,0,position);
+				bufByteArr = new byte[byteBufSize];
+				System.arraycopy(byteBuffer.array(), 0, bufByteArr, 0, byteBufSize);
 				if (temp != null) {
 					byte[] temp2 = new byte[temp.length + bufByteArr.length];
 					System.arraycopy(temp, 0, temp2, 0, temp.length);
