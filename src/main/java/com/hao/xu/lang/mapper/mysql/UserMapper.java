@@ -14,4 +14,6 @@ public interface UserMapper {
 	User selectByPrimaryKey(int id);
 
 	void insertUser(User user);
+
+	Integer findUserId(String name);
 }

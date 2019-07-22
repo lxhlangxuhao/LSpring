@@ -27,7 +27,7 @@
 
 
 
-<!--    <mvc:interceptors>-->
+    <mvc:interceptors>
 <!--        <mvc:interceptor>-->
 <!--            <mvc:mapping path="/**"/>-->
 <!--            <bean class="com.hao.xu.lang.interceptor.InterceptorOne">-->
@@ -38,11 +38,11 @@
 <!--            <bean class="com.hao.xu.lang.interceptor.InterceptorTwo">-->
 <!--            </bean>-->
 <!--        </mvc:interceptor>-->
-<!--        <mvc:interceptor>-->
-<!--            <mvc:mapping path="/**"/>-->
-<!--            <bean class="com.hao.xu.lang.interceptor.InterceptorThree">-->
-<!--            </bean>-->
-<!--        </mvc:interceptor>-->
-<!--    </mvc:interceptors>-->
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.hao.xu.lang.interceptor.InterceptorThree">
+            </bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
 </beans>
