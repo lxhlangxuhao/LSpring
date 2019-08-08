@@ -14,16 +14,20 @@
     <!-- 自动扫描装配 -->
     <context:component-scan base-package="com.hao.xu.lang"/>
 
-    <context:property-placeholder location="classpath:jdbc.properties" />
-    <import resource="spring-mybatis.xml"/>
-<!--    <import resource="spring-activemq.xml"/>-->
+    <context:property-placeholder location="classpath*:jdbc.properties,classpath*:redisConfig.properties" />
 
+
+    <import resource="spring-mybatis.xml"/>
+    <!-- <import resource="spring-activemq.xml"/>-->
+     <import resource="spring-redis.xml"/>
 
     <bean id="sysConfig" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
         <property name="locations">
             <array>
                 <value>classpath*:jdbc.properties</value>
+                <value>classpath*:sysConfig.properties</value>
             </array>
         </property>
     </bean>
+
 </beans>

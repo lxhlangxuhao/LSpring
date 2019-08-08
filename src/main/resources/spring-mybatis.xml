@@ -140,7 +140,6 @@
 	</bean>
 	<!-- spring 事务管理器 end -->
 
-
 	<!-- 数据源动态切换 start -->
 <!--	<bean id="dataSourceAspect" class="com.hao.xu.lang.AspectLang.DynamicSourceAspect"/>-->
 <!--	<aop:config>-->
