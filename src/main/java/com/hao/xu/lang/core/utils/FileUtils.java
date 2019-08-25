@@ -1,5 +1,7 @@
 package com.hao.xu.lang.core.utils;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.DecimalFormat;
 
 /**
@@ -9,6 +11,12 @@ import java.text.DecimalFormat;
  */
 public class FileUtils {
 
+	/**
+	 * @Author: LangXuhao
+	 * @Description: 文件大小转成描述 1.00 B/2.00 KB/3.00 MB /4.00 G
+	 * @param size long
+	 * @return: java.lang.String
+	 */
 	public static String getFileSizeDescription(long size) {
 		StringBuilder bytes = new StringBuilder();
 		DecimalFormat format = new DecimalFormat("###.00");
@@ -34,7 +42,21 @@ public class FileUtils {
 	}
 
 
-	public static void main(String[] args) {
-		System.out.println(getFileSizeDescription(102500000000L));
+	/**
+	 * @Author: LangXuhao
+	 * @Description: 创建不存在文件
+	 * @param file File
+	 * @return: boolean 创建成功ture
+	 */
+	public static boolean createFile(File file) {
+		if (!file.exists()) {
+			try {
+				return file.createNewFile();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+		return false;
 	}
+
 }

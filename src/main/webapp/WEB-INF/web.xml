@@ -51,14 +51,14 @@
     </filter-mapping>
 
     <!-- FilterOne -->
-<!--    <filter>-->
-<!--        <filter-name>filterOne</filter-name>-->
-<!--        <filter-class>com.hao.xu.lang.filter.FilterOne</filter-class>-->
-<!--    </filter>-->
-<!--    <filter-mapping>-->
-<!--        <filter-name>filterOne</filter-name>-->
-<!--        <url-pattern>/*</url-pattern>-->
-<!--    </filter-mapping>-->
+    <filter>
+    <filter-name>filterOne</filter-name>
+    <filter-class>com.hao.xu.lang.filter.FilterOne</filter-class>
+</filter>
+    <filter-mapping>
+        <filter-name>filterOne</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
     <!-- FilterTwo -->
 <!--    <filter>-->
 <!--        <filter-name>filterTwo</filter-name>-->
