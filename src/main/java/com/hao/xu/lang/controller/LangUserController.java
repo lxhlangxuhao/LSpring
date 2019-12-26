@@ -41,7 +41,4 @@ public class LangUserController {
 	}
 
 
-
-	@Value("#{sysConfig.test}")
-	private String stest;
 }

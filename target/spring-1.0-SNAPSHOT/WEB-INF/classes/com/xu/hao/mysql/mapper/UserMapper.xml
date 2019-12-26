@@ -25,4 +25,8 @@
     #{score,jdbcType=INTEGER})
   </insert>
 
+  <select id="findUserId" resultType="Integer" parameterType="String">
+    select id from User where name = #{name,jdbcType=VARCHAR};
+  </select>
+
 </mapper>
